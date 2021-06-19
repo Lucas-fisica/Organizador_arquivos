@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>janela1</class>
+ <widget class="QMainWindow" name="janela1">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>475</width>
+    <height>348</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>475</width>
+    <height>348</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>400</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Organizador</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="bot1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>134</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>selecionar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bot2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>300</y>
+      <width>134</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Avançar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bot1a">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>300</y>
+      <width>134</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>451</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>451</width>
+      <height>261</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>451</width>
+      <height>261</height>
+     </size>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Olá nobre viajante, seja bem-vindo a esta ferramenta de organização de arquivos. O proposito dela é ser simples e funcional. Antes de vocẽ começar a utilizar esta ferramenta, vou explicar seu funcionamento.&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Para fazer uso é bastante simples, primeiro você escolhe uma pasta(Botão selecionar), em seguida aperte o botâo de avançar caso já tenha escolhido sua pasta. Se não escolher nenhuma, o programa usará como padrão  a pasta &lt;span style=&quot; font-weight:600; font-style:italic; text-decoration: underline;&quot;&gt;Downloads&lt;/span&gt;. Feito isto, na janela seguinte, você irá selecionar a pasta onde deseja que seus arquivos sejam salvos. Caso não escolha nenhum, a pasta padrão é &lt;span style=&quot; font-weight:600; font-style:italic; text-decoration: underline;&quot;&gt;Documentos.&lt;/span&gt; Mas fique tranquilo, voçê poderá cancelar a qualquer momento.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
